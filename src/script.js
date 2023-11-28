@@ -20,7 +20,7 @@ async function postData(url="", data = {}) {
 } 
 
 
-getData("http://localhost:8000/getdata").then((data) => {
+getData("http://localhost:8000/api/user").then((data) => {
     console.log(data);
 });
 
