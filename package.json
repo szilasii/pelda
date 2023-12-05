@@ -1,7 +1,17 @@
 {
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "start": "node ./App/App.js",
+    "dev": "nodemon ./App/App.js",
+    "test": "echo \"hihi tesztet még nem írtunk!\" && exit 1"
   }
 }
